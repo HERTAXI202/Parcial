@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Montserrat:wght@600 & family= Prompt:wght@800 & family= Spline+Sans:wght@300; 500;700 & mostrar=cambiar');
+
+body{
+	font-family:"spline sans", sans-serif;
+	color: #666;
+	line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 600;
+	color: #131058;
+}
+
+a{
+	color: #222;
+	text-decoration: none;
+	transition: all 0.4s;
+	font-weight:500;
+}
+
+a:hover{
+	color: #F58d17
+}
+
+img{
+	width: 100%;
+}
+
+section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+/* Btn */
+
+.btn{
+	border-radius: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand{
+    color: #fff;
+    font-weight: 300;
+    border-color: #fe3e57;
+    background-color: #fe3e57;
+}
+
+.btn-brand:hover{
+    border-color: #fe3e57;
+    background-color: #fe3e57;
+    color: #666;
+}
+
+.bg-cover{
+	background-position: center !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+
+/* slide */
+
+.slide-1{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(imagenes/1.jpg);
+}
+
+/* About */
+
+#about .divider{
+	width: 300px;
+	height: 5px;
+	display: block;
+	background-color: #fe3e57;
+}
+
+/* feature */
+
+.feature{
+	padding: 14px 38px;
+}
+ 
